@@ -1,0 +1,74 @@
+@media screen and (max-width: 767px){
+
+    .log
+    {
+        width: 30%;
+    }
+
+    .but
+    {
+        width: 30%;
+    }
+    
+    
+    .but a
+    {
+        padding: 0.7rem 0.5rem;
+        font-size: 10px;
+    }
+
+    .text
+    {
+        margin-top: 30%;
+        width: 90%;
+        margin: 5%;
+        margin-top: 25%;
+    }
+
+    .text h2 
+    {
+        font-size: 30px;
+        margin-top: 25%;
+    } 
+
+    .text h3 
+    {
+        font-size: 20px;
+        margin-top: 10%;
+    }
+
+    .text p
+    {
+        margin-bottom: 10%;
+    }
+
+    .section h4
+{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+    .lev
+{
+    width: 80%;
+}
+
+    .grid
+{
+    width: 90%;
+    height: 600px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+    .card-content
+{
+    height: 70%;
+    transform: translateY(0);
+}
+
+
+}
